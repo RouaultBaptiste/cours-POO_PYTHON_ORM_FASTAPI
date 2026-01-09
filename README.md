@@ -1,24 +1,24 @@
 # Cours POO - SQLModel - FastAPI
 
-🎓 **Cours complet sur la Programmation Orientée Objet, SQLModel et FastAPI**
+ ** Mon travail pour le Cours  sur la POO, SQLModel et FastAPI pour le 09/01/2026**
 
-## 📋 Contenu du cours
+##  Contenu du cours
 
-### 🏗️ **Module I - Introduction et concepts d'une API**
+###  **Module I - Introduction et concepts d'une API**
 - Définition et principes des APIs
 - Types d'APIs (REST, SOAP, GraphQL)
 - Formats de données (JSON, XML)
 - Codes de retour HTTP
 - Méthodes HTTP (GET, POST, PUT, DELETE, PATCH)
 
-### 🗄️ **Module II - Modélisation et manipulation de la BDD avec SQLModel**
+###  **Module II - Modélisation et manipulation de la BDD avec SQLModel**
 - Introduction à SQLModel
 - Création de tables et modèles
 - Mise en place de la base de données
 - Requêtage simple et avancé
 - Relations One-to-Many et Many-to-Many
 
-### 🚀 **Module III - Création d'une API REST avec FastAPI**
+###  **Module III - Création d'une API REST avec FastAPI**
 - Introduction à FastAPI
 - Définition des endpoints
 - Schémas de données et validation
@@ -27,21 +27,21 @@
 - Gestion des erreurs
 - Organisation du projet
 
-### 🧪 **Module IV - Tests automatisés avec Pytest**
+###  **Module IV - Tests automatisés avec Pytest**
 - Pourquoi tester ?
 - Types de tests (unitaires, intégration, fonctionnels)
 - Introduction à Pytest
 - Tests HTTP avec HTTPX
 - Fixtures et couverture de code
 
-### 🐳 **Module V - Docker et déploiement**
+###  **Module V - Docker et déploiement**
 - Pourquoi Docker ?
 - Concepts Docker (images, containers)
 - Création d'images personnalisées
 - Orchestration avec Docker Compose
 - Bonnes pratiques Docker
 
-## 🎯 **Exercices pratiques**
+##  **Exercices pratiques**
 
 ### **Exercice 1** - Setup de l'environnement
 - Installation Python et dépendances
@@ -70,7 +70,7 @@
 - Pagination des résultats
 - Filtrage et tri
 
-## 🏃‍♂️ **Démarrage rapide**
+##  **Démarrage **
 
 ```bash
 # Cloner le repository
@@ -90,7 +90,7 @@ uvicorn src.main:app --reload
 # http://localhost:8000/docs
 ```
 
-## 📁 **Structure du projet**
+##  **Structure du projet**
 
 ```
 cours-POO_PYTHON_ORM_FASTAPI/
@@ -112,7 +112,7 @@ cours-POO_PYTHON_ORM_FASTAPI/
 └── README.md
 ```
 
-## 🛠️ **Technologies utilisées**
+##  **Technologies utilisées**
 
 - **Python 3.11+** - Langage principal
 - **FastAPI** - Framework API moderne
@@ -123,19 +123,16 @@ cours-POO_PYTHON_ORM_FASTAPI/
 - **Docker** - Conteneurisation
 - **Uvicorn** - Serveur ASGI
 
-## 📚 **Ressources**
+##  **Ressources**
 
 - [Documentation FastAPI](https://fastapi.tiangolo.com/)
 - [Documentation SQLModel](https://sqlmodel.tiangolo.com/)
 - [Documentation Pydantic](https://pydantic-docs.helpmanual.io/)
 - [Documentation Pytest](https://docs.pytest.org/)
 
-## 👨‍🏫 **Formateur**
+##  **Formateur**
 
 **Baptiste Rouault**  
-Développeur Python et formateur spécialisé dans les APIs modernes
+étudiant 
 
----
 
-🚀 **Prêt à maîtriser FastAPI et SQLModel ?**  
-Commencez par l'exercice 1 et progressez pas à pas !
