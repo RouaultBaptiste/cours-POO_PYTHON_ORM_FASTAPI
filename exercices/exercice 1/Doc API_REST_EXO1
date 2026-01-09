@@ -1,0 +1,85 @@
+# API REST — Gestion des Utilisateurs
+
+##  Description
+Cette API permet de gérer des utilisateurs via une architecture REST
+conforme aux bonnes pratiques (FastAPI + ORM).
+
+---
+
+##  Ressource principale
+/users
+
+---
+
+##  Créer un utilisateur
+**POST** `/users`
+
+### Body (JSON)
+{
+  "first_name": "Baptiste",
+  "last_name": "Rouault",
+  "email": "baptiste.rouault@digi.com",
+  "age": 25
+}
+
+### Réponses
+- 201 Created
+- 400 Bad Request
+
+---
+
+##  Récupérer tous les utilisateurs
+**GET** `/users`
+
+### Réponses
+- 200 OK
+
+---
+
+##  Récupérer un utilisateur
+**GET** `/users/{id}`
+
+### Réponses
+- 200 OK
+- 404 Not Found
+
+---
+
+##  Mettre à jour un utilisateur
+**PUT** `/users/{id}`
+
+### Body (JSON)
+{
+  "full_name": "Baptiste Rouault",
+  "email": "baptiste.rouault@digi.com",
+  "age": 26
+   "is_active"
+}
+
+### Réponses
+- 200 OK
+- 404 Not Found
+
+---
+
+##  Supprimer un utilisateur
+**DELETE** `/users/{id}`
+
+# POST /updateUser
+PATCH /users/{id}                   #
+
+
+
+
+### Réponses
+- 204 No Content
+- 404 Not Found
+
+---
+
+##  Codes HTTP utilisés
+- 200 OK
+- 201 Created
+- 204 No Content
+- 400 Bad Request
+- 404 Not Found
